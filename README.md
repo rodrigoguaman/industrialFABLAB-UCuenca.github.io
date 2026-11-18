@@ -1,19 +1,31 @@
 # Industrial FABLAB UCuenca
 
-Web estática lista para alojarse en GitHub Pages.
+Sitio estático en español. Colores basados en el logo entregado: azul marino, rojo, gris y blanco. La carpeta inicial estaba vacía.
 
-## Contenido
+## Vista local
 
-- Inicio: `index.html`.
-- Academy: `academy.html`.
-- Projects Hub: `projects.html`.
-- Proyecto textil: `proyecto-textil.html`.
-- Matemática tangible: `proyecto-matematica.html`.
+Desde esta carpeta, ejecutar `node preview.mjs` y abrir http://127.0.0.1:4173.
 
-## Subir a GitHub
+## Edición
 
-Descomprimir el ZIP y subir su contenido al repositorio, conservando las carpetas. El archivo `index.html` debe quedar en la raíz de la carpeta publicada. El ZIP por sí solo no se convierte en una página web.
+- `dist/index.html`: contenido y estructura.
+- `dist/styles.css`: diseño adaptable y colores.
+- `dist/app.js`: menú móvil y fichas de tecnologías.
+- `dist/academy.html`: siete equipos y 27 integrantes del ciclo septiembre 2026–febrero 2027.
+- `dist/academy.css`: tarjetas y diseño adaptable de Academy.
+- `dist/projects.html`: Projects Hub e índice de proyectos.
+- `dist/proyecto-textil.html`: primer proyecto de vinculación, con contexto y galería ampliable. Detalles de mantenimiento en `PROJECTS.md`.
+- `dist/proyecto-jaboneria.html`: reutilización del aceite doméstico en jabonería artesanal, con equipo, objetivos y galería de moldes.
+- `dist/assets/academy/`: fotografías tomadas de las páginas de los equipos. Sus enlaces abren una pestaña nueva.
+- `dist/assets/logo.jpeg`: logo original entregado.
+- `dist/assets/comunidad.jpg`: fotografía de CLEIN 2025, Universidad de Cuenca.
 
-Este paquete incluye únicamente la web. Excluye las versiones de despliegue anteriores, archivos de investigación e historial local de Git. No requiere instalar dependencias ni ejecutar un proceso de compilación.
+Los botones de contacto abren el correo del visitante. No se recogen ni almacenan solicitudes en el sitio. Los materiales, horarios, tarifas y disponibilidad se consultan con el equipo.
 
-Las fotografías y el resto de archivos de la web se conservan byte por byte respecto a la versión local. La compresión ZIP es reversible y no reduce la resolución ni la calidad de las imágenes.
+## Fuentes
+
+- Referencia de estructura: https://fablabbkk.com/
+- Capacidades, comunidad y contacto: https://fablabs.io/labs/ucuenca
+- Presentación del laboratorio y fotografía: https://www.ucuenca.edu.ec/noticias/clein-2025-impulsa-innovacion-y-aprendizaje-en-ingenieria-industrial/
+
+Las ilustraciones de tecnologías y la pieza de portada son gráficos conceptuales originales en SVG; no representan modelos específicos de maquinaria. Los textos de aprendizaje presentan una ruta orientativa, no un catálogo de cursos programados.
